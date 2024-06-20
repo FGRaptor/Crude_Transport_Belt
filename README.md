@@ -19,8 +19,10 @@ While the source is provided here, for actual use just use the [official Factori
 - Working remnants when destroyed
 - Choose from 2 crafting recipes, you can enable just one or both
 - Adjust all crafting costs and craft amounts using the mod settings 
+- No new underground or splitter variant, it's just about the belt
 
 ## Why does this mod exist? Does anyone want a slower belt?
+
 Well this is basically for me. Firstly, I wanted to get into Factorio modding and wanted to pick something simple to learn some basics. 
 
 Second, I actually want cheap slow belts. I always get annoyed at the beginning of a playthrough not being able to quickly set up some basic belts. It just helps me see things properly to have all the belts setup. But even the normal Transport Belt is expensive in the beginning, all things considered.
@@ -28,17 +30,18 @@ Second, I actually want cheap slow belts. I always get annoyed at the beginning 
 So just to have some belts placed, I wanted something like this.
 
 ## The Crude transport belt
+
+![](images/crude_transport_belt_screenshot_01.jpg)
+
 The Crude transport belt is intended as a slower and worse version of the normal Transport belt, but it should also be much cheaper to craft.
 
 Compared to Transport belt in brackets:
-
-Health: 50 (150)
-
-Resistances: Fire 50% (90%)
-
-Belt speed: 5 items/s (15 items/s)
+- Health: 50 (150)
+- Resistances: Fire 50% (90%)
+- Belt speed: 5 items/s (15 items/s)
 
 ### Crafting Recipes
+
 You can choose one or both of the crafting recipes:
 - Only Iron Plate 
 - Iron Plate and Gear
@@ -60,10 +63,18 @@ By default the cost is 1 Iron gear wheel and 1 Iron plate which equals 3 Iron pl
 Compared to that the Transport belt costs 1 Iron gear wheel and 1 Iron plate which equals 3 Iron plates total and crafts 2 belts.
 
 ### Mod Settings
+
 The mod settings allow you to:
 - Enable or disable both of the crafting recipes
 - Change the multiplier for crafting costs (the base value is 1 Iron plate and 1 Iron gear wheel for both recipes, and is then multiplied by the setting value), default multiplier is 1
 - Change the multiplier for crafted amount of belts (the base value is 1 belt for both recipes, and is then multiplied by the setting value), default multiplier is 4
 
+## Compatibility
+
+Should be compatible with just about every other mod, as it just adds a new simple belt. 
+
+Maybe it could be incompatible with certain mods that change the existing Transport belts, Iron plates, or Iron gear wheels.
+
 ## Credits
+
 All proper credits and copyright to Wube Software and Factorio for the base game graphics, of which I modified the Fast transport belt for this mod 
