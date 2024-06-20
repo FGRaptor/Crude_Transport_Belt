@@ -10,13 +10,14 @@ The speed is 1/3 of the normal Transport Belt, which is 5 items/s. The exact cra
 
 ## Installation
 
-While the source is provided here, for actual use just use the [official Factorio mod portal](https://mods.factorio.com/) to download and install the mod (or just do so from inside the game).
+While the source is provided here, for actual use just use the [official Factorio mod portal](https://mods.factorio.com/mod/crude-transport-belt) to download and install the mod (or just do so from inside the game).
 
 ## Features
 
 - Adds 1 new transport belt, the Crude transport belt, a tier below the normal Transport belt 
 - Recolored transport belt with "white" markings
 - Working remnants when destroyed
+- No technology required to unlock, it is available immediately just like the normal Transport belt
 - Choose from 2 crafting recipes, you can enable just one or both
 - Adjust all crafting costs and craft amounts using the mod settings 
 - No new underground or splitter variant, it's just about the belt
