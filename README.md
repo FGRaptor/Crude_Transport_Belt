@@ -18,7 +18,7 @@ While the source is provided here, for actual use just use the [official Factori
 - Choose from 2 crafting recipes, you can enable just one or both
 - Adjust all crafting costs and craft amounts using the mod settings 
 
-### Why does this mod exist? Does anyone want a slower belt?
+## Why does this mod exist? Does anyone want a slower belt?
 Well this is basically for me. Firstly, I wanted to get into Factorio modding and wanted to pick something simple to learn some basics. 
 Second, I actually want cheap slow belts. I always get annoyed at the beginning of a playthrough not being able to quickly set up some basic belts. It just helps me see things properly to have all the belts setup. But even the normal Transport Belt is expensive in the beginning, all things considered.
 So just to have some belts placed, I wanted something like this.
