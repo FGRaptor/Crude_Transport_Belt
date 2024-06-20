@@ -42,6 +42,8 @@ Compared to Transport belt in brackets:
 
 ### Crafting Recipes
 
+![](images/recipe.png)
+
 You can choose one or both of the crafting recipes:
 - Only Iron Plate 
 - Iron Plate and Gear
@@ -63,6 +65,8 @@ By default the cost is 1 Iron gear wheel and 1 Iron plate which equals 3 Iron pl
 Compared to that the Transport belt costs 1 Iron gear wheel and 1 Iron plate which equals 3 Iron plates total and crafts 2 belts.
 
 ### Mod Settings
+
+![](images/mod_settings.png)
 
 The mod settings allow you to:
 - Enable or disable both of the crafting recipes
