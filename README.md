@@ -18,6 +18,7 @@ While the source is provided here, for actual use just use the [official Factori
 - Recolored transport belt with "white" markings
 - Working remnants when destroyed
 - No technology required to unlock, it is available immediately just like the normal Transport belt
+- Upgrade planner will replace it with normal Transport belts
 - Choose from 2 crafting recipes, you can enable just one or both
 - Adjust all crafting costs and craft amounts using the mod settings 
 - No new underground or splitter variant, it's just about the belt
