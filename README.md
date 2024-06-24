@@ -76,6 +76,11 @@ The mod settings allow you to:
 - Change the multiplier for crafted amount of belts (the base value is 1 belt for both recipes, and is then multiplied by the setting value), default multiplier is 4
 - Force Enable Recipes, only required for certain cases (see mod compatibility)
 
+## Localization
+
+- English
+- German
+
 ## Compatibility
 
 Should be compatible with just about every other mod, as it just adds a new simple belt. 
@@ -92,4 +97,6 @@ Maybe it could be incompatible with certain mods that change the existing Transp
 
 ## Credits
 
-All proper credits and copyright to Wube Software and Factorio for the base game graphics, of which I modified the Fast transport belt for this mod 
+- Wube Software and Factorio, for the base game graphics, of which I adjusted some for this mod 
+
+- I had the [New Gear Girl Character ](https://mods.factorio.com/mod/NewGirlCharacter) mod installed when making the screenshots, as you can see, just because I like the mod. It is not related to my mod otherwise and I am not using anything from the mod. I recommend it though.
