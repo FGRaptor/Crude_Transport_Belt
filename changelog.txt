@@ -3,28 +3,28 @@ Version: 0.1.1
 Date: 24.06.2024
   Major Features:
     - Crude transport belt graphics updated, now with 2 arrows like the normal Transport belt, I think it looks better for a slower belt 
-	- Krastorio 2 mod confirmed compatible and added as an optional dependency
-	- Space Exploration and AAI Industry mods confirmed compatible and added as an optional dependency, also if you have one of those mods installed, you can get settings for a new recipe to craft the belt using Iron Plates and Motors, similar to the changed Transport belt recipe from AAI Industry
-	- Early Extensions mod made compatible and added as an optional dependency, there is a new option to keep the Crude transport belt unlocked despite Early Extensions trying to lock belts behind a new technology
+    - Krastorio 2 mod confirmed compatible and added as an optional dependency
+    - Space Exploration and AAI Industry mods confirmed compatible and added as an optional dependency, also if you have one of those mods installed, you can get settings for a new recipe to craft the belt using Iron Plates and Motors, similar to the changed Transport belt recipe from AAI Industry
+    - Early Extensions mod made compatible and added as an optional dependency, there is a new option to keep the Crude transport belt unlocked despite Early Extensions trying to lock belts behind a new technology
   Features:
     - Space Exploration and AAI Industry compatibility:
-	If you have one or both of these mods installed, you get new mod settings to activate another crafting recipe for Iron Plates and Motors, which is similar to the changed AAI Industry recipe for Transport belts
-	The settings are the same as for the other recipes, you can enable/disable it, change the cost multipliers and the crafting amount multiplier.
-	- Early Extensions compatibility:
-	This mod locks all transport belts which are available without a technology (which means the normal Transport belt and my new Crude transport belt) behind a new technology. 
-	There is a new mod setting which is disabled by default called "Force Enable Recipes" which when enabled, will make sure to enable/unlock any Crude transport belt recipes you have enabled again after being locked by Early Extensions or other mods which might do this, as long as they load before my mod
-	Due to how mod loading works, my mod has to be loaded first to not be overwritten again, unfortunately my mod name starts with a "C" so it's quite early. If other mods like this pop up, I would probably have to add them as dependency as well to make sure my mod can load after.
-	But it works for now.
+      If you have one or both of these mods installed, you get new mod settings to activate another crafting recipe for Iron Plates and Motors, which is similar to the changed AAI Industry recipe for Transport belts
+      The settings are the same as for the other recipes, you can enable/disable it, change the cost multipliers and the crafting amount multiplier.
+    - Early Extensions compatibility:
+      This mod locks all transport belts which are available without a technology (which means the normal Transport belt and my new Crude transport belt) behind a new technology. 
+      There is a new mod setting which is disabled by default called "Force Enable Recipes" which when enabled, will make sure to enable/unlock any Crude transport belt recipes you have enabled again after being locked by Early Extensions or other mods which might do this, as long as they load before my mod
+      Due to how mod loading works, my mod has to be loaded first to not be overwritten again, unfortunately my mod name starts with a "C" so it's quite early. If other mods like this pop up, I would probably have to add them as dependency as well to make sure my mod can load after.
+      But it works for now.
   Minor Features:
     - Removed some unnecessary code
-	- Removed unnecessary files
+    - Removed unnecessary files
   Graphics:
     - The belt graphics were updated to have 2 arrows like the normal Transport belt, before it had 1 arrow like the faster belts 
-	I think this looks better for a slow belt.
-	I also updated the mod thumbnail and screenshot to show the new graphics.
+      I think this looks better for a slow belt.
+      I also updated the mod thumbnail and screenshot to show the new graphics.
   Bugfixes:
     - Added missing destruction effects
-	- Added missing sound effects
+    - Added missing sound effects
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 20.06.2024
