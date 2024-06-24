@@ -87,13 +87,13 @@ Should be compatible with just about every other mod, as it just adds a new simp
 
 Maybe it could be incompatible with certain mods that change the existing Transport belts, Iron plates, or Iron gear wheels.
 
-**Krastorio 2:** compatible
+- **Krastorio 2:** compatible
 
-**AAI Industry:** compatible, includes an extra recipe you can enable and configure to craft Crude transport belts with Iron Plates and Motors, which is the same as the AAI Industry changed recipe for normal Transport belts 
+- **AAI Industry:** compatible, includes an extra recipe you can enable and configure to craft Crude transport belts with Iron Plates and Motors, which is the same as the AAI Industry changed recipe for normal Transport belts 
 
-**Space Exploration:** compatible, since AAI Industry is required, the new recipe is also available
+- **Space Exploration:** compatible, since AAI Industry is required, the new recipe is also available
 
-**Early Extensions:** compatible, this mod adds a new technology locking all transport belts behind it that are available by default, use the "Force Enable Recipes" setting to avoid this for the Crude transport belt recipes
+- **Early Extensions:** compatible, this mod adds a new technology locking all transport belts behind it that are available by default, use the "Force Enable Recipes" setting to avoid this for the Crude transport belt recipes
 
 ## Credits
 
