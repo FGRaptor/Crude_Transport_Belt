@@ -4,7 +4,7 @@
 
 A mod for [Factorio](https://factorio.com/). 
 
-Adds the *Crude Transport Belt*, a tier below the normal Transport Belt. This is a very cheap but slow transport belt to allow easier early automation and item transportation.
+Adds the **Crude Transport Belt**, a tier below the normal Transport Belt. This is a very cheap but slow transport belt to allow easier early automation and item transportation.
 
 The speed is 1/3 of the normal Transport Belt, which is 5 items/s. The exact crafting cost and amount of crafted items is configurable, so you can adjust it to be cheap or even expensive, or adjust it to fit in with costs of other mods you might have.
 
@@ -38,9 +38,9 @@ So just to have some belts placed, I wanted something like this.
 The Crude transport belt is intended as a slower and worse version of the normal Transport belt, but it should also be much cheaper to craft.
 
 Compared to Transport belt in brackets:
-- **Health: 50 (150)**
-- Resistances: Fire 50% (90%)
-- Belt speed: 5 items/s (15 items/s)
+- **Health: 50** (150)
+- **Resistances: Fire 50%** (90%)
+- **Belt speed: 5 items/s** (15 items/s)
 
 ### Crafting Recipes
 
@@ -74,12 +74,21 @@ The mod settings allow you to:
 - Enable or disable both of the crafting recipes
 - Change the multiplier for crafting costs (the base value is 1 Iron plate and 1 Iron gear wheel for both recipes, and is then multiplied by the setting value), default multiplier is 1
 - Change the multiplier for crafted amount of belts (the base value is 1 belt for both recipes, and is then multiplied by the setting value), default multiplier is 4
+- Force Enable Recipes, only required for certain cases (see mod compatibility)
 
 ## Compatibility
 
 Should be compatible with just about every other mod, as it just adds a new simple belt. 
 
 Maybe it could be incompatible with certain mods that change the existing Transport belts, Iron plates, or Iron gear wheels.
+
+**Krastorio 2:** compatible
+
+**AAI Industry:** compatible, includes an extra recipe you can enable and configure to craft Crude transport belts with Iron Plates and Motors, which is the same as the AAI Industry changed recipe for normal Transport belts 
+
+**Space Exploration:** compatible, since AAI Industry is required, the new recipe is also available
+
+**Early Extensions:** compatible, this mod adds a new technology locking all transport belts behind it that are available by default, use the "Force Enable Recipes" setting to avoid this for the Crude transport belt recipes
 
 ## Credits
 
