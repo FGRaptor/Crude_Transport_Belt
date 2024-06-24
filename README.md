@@ -4,7 +4,7 @@
 
 A mod for [Factorio](https://factorio.com/). 
 
-Adds the Crude Transport Belt, a tier below the normal Transport Belt. This is a very cheap but slow transport belt to allow easier early automation and item transportation.
+Adds the *Crude Transport Belt*, a tier below the normal Transport Belt. This is a very cheap but slow transport belt to allow easier early automation and item transportation.
 
 The speed is 1/3 of the normal Transport Belt, which is 5 items/s. The exact crafting cost and amount of crafted items is configurable, so you can adjust it to be cheap or even expensive, or adjust it to fit in with costs of other mods you might have.
 
@@ -38,7 +38,7 @@ So just to have some belts placed, I wanted something like this.
 The Crude transport belt is intended as a slower and worse version of the normal Transport belt, but it should also be much cheaper to craft.
 
 Compared to Transport belt in brackets:
-- Health: 50 (150)
+- **Health: 50 (150)**
 - Resistances: Fire 50% (90%)
 - Belt speed: 5 items/s (15 items/s)
 
