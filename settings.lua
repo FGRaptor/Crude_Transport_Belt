@@ -4,7 +4,7 @@ data:extend{
 	name = "crude-transport-belt-enable-nogear",
 	setting_type = "startup",
 	default_value = true,
-	order = "a"
+	order = "a1"
 },
 {
 	type = "int-setting",
@@ -13,7 +13,7 @@ data:extend{
 	default_value = 1,
 	minimum_value = 1,
 	maximum_value = 999,
-	order = "ab"
+	order = "a2"
 },
 {
 	type = "int-setting",
@@ -22,14 +22,14 @@ data:extend{
 	default_value = 4,
 	minimum_value = 1,
 	maximum_value = 999,
-	order = "ac"
+	order = "a3"
 },
 {
 	type = "bool-setting",
 	name = "crude-transport-belt-enable-cheap",
 	setting_type = "startup",
 	default_value = false,
-	order = "b"
+	order = "b1"
 },
 {
 	type = "int-setting",
@@ -38,7 +38,7 @@ data:extend{
 	default_value = 1,
 	minimum_value = 1,
 	maximum_value = 999,
-	order = "ba"
+	order = "b2"
 },
 {
 	type = "int-setting",
@@ -47,7 +47,7 @@ data:extend{
 	default_value = 1,
 	minimum_value = 1,
 	maximum_value = 999,
-	order = "bb"
+	order = "b3"
 },
 {
 	type = "int-setting",
@@ -56,6 +56,52 @@ data:extend{
 	default_value = 4,
 	minimum_value = 1,
 	maximum_value = 999,
-	order = "bc"
+	order = "b4"
+},
+{
+	type = "bool-setting",
+	name = "crude-transport-belt-enableforce",
+	setting_type = "startup",
+	default_value = false,
+	order = "z1"
 }
 }
+
+if mods["aai-industry"] then
+data:extend{
+{
+	type = "bool-setting",
+	name = "crude-transport-belt-enable-aaindustry",
+	setting_type = "startup",
+	default_value = false,
+	order = "c1"
+},
+{
+	type = "int-setting",
+	name = "crude-transport-belt-cost-aaindustry-ironplate",
+	setting_type = "startup",
+	default_value = 1,
+	minimum_value = 1,
+	maximum_value = 999,
+	order = "c2"
+},
+{
+	type = "int-setting",
+	name = "crude-transport-belt-cost-aaindustry-motor",
+	setting_type = "startup",
+	default_value = 1,
+	minimum_value = 1,
+	maximum_value = 999,
+	order = "c3"
+},
+{
+	type = "int-setting",
+	name = "crude-transport-belt-result-aaindustry",
+	setting_type = "startup",
+	default_value = 4,
+	minimum_value = 1,
+	maximum_value = 999,
+	order = "c4"
+}
+}
+end

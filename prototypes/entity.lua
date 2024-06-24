@@ -1,11 +1,15 @@
-crude_transport_belt_animation_set = {
+local hit_effects = require("__base__.prototypes.entity.hit-effects")
+local sounds = require("__base__.prototypes.entity.sounds")
+
+crude_transport_belt_animation_set = 
+{
 	animation_set =
 	{
 		filename = "__crude-transport-belt__/graphics/entity/crude-transport-belt/crude-transport-belt.png",
 		priority = "extra-high",
 		width = 64,
 		height = 64,
-		frame_count = 32,
+		frame_count = 16,
 		direction_count = 20,
 		hr_version = 
 		{
@@ -14,7 +18,7 @@ crude_transport_belt_animation_set = {
 			width = 128,
 			height = 128,
 			scale = 0.5,
-			frame_count = 32,
+			frame_count = 16,
 			direction_count = 20
 		}
 	},
@@ -30,6 +34,7 @@ data:extend({
 	minable = {mining_time = 0.1, result = "crude-transport-belt"},
 	max_health = 50,
 	corpse = "crude-transport-belt-remnants",
+	dying_explosion = "transport-belt-explosion",
     resistances =
 	{
 		{
@@ -39,6 +44,9 @@ data:extend({
 	},
 	collision_box = {{-0.4, -0.4}, {0.4, 0.4}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+	damaged_trigger_effect = hit_effects.entity(),
+    open_sound = sounds.machine_open,
+    close_sound = sounds.machine_close,
     working_sound =
     {
 		sound =
@@ -49,25 +57,6 @@ data:extend({
 		persistent = true
     },
 	animation_speed_coefficient = 32,
-    animations =
-	{
-		filename = "__crude-transport-belt__/graphics/entity/crude-transport-belt/crude-transport-belt.png",
-		priority = "extra-high",
-		width = 64,
-		height = 64,
-		frame_count = 32,
-		direction_count = 20,
-		hr_version =
-		{
-			filename = "__crude-transport-belt__/graphics/entity/crude-transport-belt/hr-crude-transport-belt.png",
-			priority = "extra-high",
-			width = 128,
-			height = 128,
-			scale = 0.5,
-			frame_count = 32,
-			direction_count = 20,
-		}
-	},
 	belt_animation_set = crude_transport_belt_animation_set,
 	fast_replaceable_group = "transport-belt",
 	next_upgrade = "transport-belt",
